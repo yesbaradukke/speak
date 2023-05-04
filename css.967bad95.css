@@ -1,0 +1,116 @@
+body, main, h1,h2,h3{
+  padding: 0;
+  margin: 0;
+}
+.main__section .container img{
+  width: 100%;
+}
+.container{
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 56px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+.main__section{
+  background-color: #BED253;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 32px;
+}
+.party{
+  background-image: url("/2blockBG.17d45ab2.png");
+  background-repeat: no-repeat;
+  padding: 56px 0;
+}
+h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 92px;
+  /* or 96% */
+  width: 70%;
+  margin-bottom: 60px;
+  color: #FFFFFF;
+}
+.line{
+  height: 2px;
+  background: white;
+  width: 100%;
+}
+.time{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.time p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+
+  color: #FFFFFF
+}
+.stroka{
+  display: flex;
+}
+.stroka p{
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  margin-right: 24px;
+  text-transform: uppercase;
+
+  color: #BED253;
+}
+.speakers{
+  background: white;
+}
+.speakers h2{
+  font-family: 'Inter';
+  text-align: center;
+  font-style: normal;
+  stroke: white;
+  fill: white;
+  font-weight: 900;
+  font-size: 136px;
+  line-height: 124px;
+  /* identical to box height, or 91% */
+  color: #BED253;
+  letter-spacing: 0.02em;
+  padding: 50px 0;
+}
+.speakers svg{
+  margin-bottom: 72px;
+  width: 100%;
+}
+.footer{
+  background-image: url("/lastblock.8c3189a4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 87px;
+}
+.last_img{
+  width: 100%;
+}
+
+
+/*# sourceMappingURL=/css.967bad95.css.map */
